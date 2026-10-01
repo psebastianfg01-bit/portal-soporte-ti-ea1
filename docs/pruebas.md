@@ -9,16 +9,16 @@ Completa este documento únicamente con resultados reales después de ejecutar c
 - Commit: PENDIENTE
 - URL Preview: PENDIENTE
 
-| ID | Prueba | Resultado esperado | Resultado observado | Estado | Evidencia |
-| --- | --- | --- | --- | --- | --- |
-| P01 | Navegación y semántica | Todos los enlaces llegan a su destino; formulario a máximo dos clics; estructura y títulos coherentes. | PENDIENTE | No ejecutada | PENDIENTE |
-| P02 | Móvil 320 px | Página y formulario sin recortes, superposición ni scroll horizontal. | PENDIENTE | No ejecutada | PENDIENTE |
-| P03 | Tablet 768 px | Navegación, tarjetas y formulario se adaptan y siguen siendo utilizables. | PENDIENTE | No ejecutada | PENDIENTE |
-| P04 | Escritorio 1440 px | Distribución legible, ancho controlado y recursos cargados. | PENDIENTE | No ejecutada | PENDIENTE |
-| P05 | Teclado y zoom | Recorrido completo con foco visible; menú operable; contenido utilizable al 200 %. | PENDIENTE | No ejecutada | PENDIENTE |
-| P06 | Formulario inválido | Rechaza vacíos, nombre de 2 caracteres, correo `usuario@`, falta de tipo/prioridad, descripción de 9 caracteres y más de 500. | PENDIENTE | No ejecutada | PENDIENTE |
-| P07 | Formulario válido | Ana Pérez, `ana@example.test`, Hardware, Media y descripción de 10+ caracteres muestran confirmación de simulación. | PENDIENTE | No ejecutada | PENDIENTE |
-| P08 | Calidad y Preview | Metadatos, contraste, alt y recursos revisados; Lighthouse móvil ejecutado y cuatro resultados registrados. | PENDIENTE | No ejecutada | PENDIENTE |
+| ID  | Prueba                 | Resultado esperado                                                                                                            | Resultado observado | Estado       | Evidencia |
+| --- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------ | --------- |
+| P01 | Navegación y semántica | Todos los enlaces llegan a su destino; formulario a máximo dos clics; estructura y títulos coherentes.                        | PENDIENTE           | No ejecutada | PENDIENTE |
+| P02 | Móvil 320 px           | Página y formulario sin recortes, superposición ni scroll horizontal.                                                         | PENDIENTE           | No ejecutada | PENDIENTE |
+| P03 | Tablet 768 px          | Navegación, tarjetas y formulario se adaptan y siguen siendo utilizables.                                                     | PENDIENTE           | No ejecutada | PENDIENTE |
+| P04 | Escritorio 1440 px     | Distribución legible, ancho controlado y recursos cargados.                                                                   | PENDIENTE           | No ejecutada | PENDIENTE |
+| P05 | Teclado y zoom         | Recorrido completo con foco visible; menú operable; contenido utilizable al 200 %.                                            | PENDIENTE           | No ejecutada | PENDIENTE |
+| P06 | Formulario inválido    | Rechaza vacíos, nombre de 2 caracteres, correo `usuario@`, falta de tipo/prioridad, descripción de 9 caracteres y más de 500. | PENDIENTE           | No ejecutada | PENDIENTE |
+| P07 | Formulario válido      | Ana Pérez, `ana@example.test`, Hardware, Media y descripción de 10+ caracteres muestran confirmación de simulación.           | PENDIENTE           | No ejecutada | PENDIENTE |
+| P08 | Calidad y Preview      | Metadatos, contraste, alt y recursos revisados; Lighthouse móvil ejecutado y cuatro resultados registrados.                   | PENDIENTE           | No ejecutada | PENDIENTE |
 
 ## Evidencias solicitadas
 
@@ -33,6 +33,7 @@ Completa este documento únicamente con resultados reales después de ejecutar c
 ## Dos problemas reales corregidos
 
 ### Problema 1
+
 - Problema observado: PENDIENTE
 - Archivo: PENDIENTE
 - Causa: PENDIENTE
@@ -43,6 +44,7 @@ Completa este documento únicamente con resultados reales después de ejecutar c
 - Nueva prueba: PENDIENTE
 
 ### Problema 2
+
 - Problema observado: PENDIENTE
 - Archivo: PENDIENTE
 - Causa: PENDIENTE
