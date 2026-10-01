@@ -15,7 +15,9 @@
     <a class="skip-link" href="#contenido">Saltar al contenido</a>
     <header class="site-header">
       <nav class="navbar container" aria-label="Navegación principal">
-        <a class="navbar__brand" href="#inicio" aria-label="Nova Servicios, inicio">Nova Servicios</a>
+        <a class="navbar__brand" href="#inicio" aria-label="Nova Servicios, inicio"
+          >Nova Servicios</a
+        >
         <button
           class="navbar__toggle"
           type="button"
@@ -42,14 +44,17 @@
           <p class="eyebrow">Soporte TI para el personal de Nova Servicios</p>
           <h1 id="hero-title">Resuelve tus incidencias de TI de forma sencilla</h1>
           <p class="hero__lead">
-            Consulta nuestros servicios, encuentra respuestas rápidas y registra una solicitud de soporte simulada.
-            Este portal utiliza únicamente datos ficticios y no guarda tickets reales.
+            Consulta nuestros servicios, encuentra respuestas rápidas y registra una
+            solicitud de soporte simulada. Este portal utiliza únicamente datos ficticios
+            y no guarda tickets reales.
           </p>
           <a class="button button--primary" href="#soporte">Solicitar soporte</a>
         </div>
         <aside class="hero__note" aria-label="Información del portal">
           <strong>Atención clara y rápida</strong>
-          <p>Encuentra el formulario de soporte en un máximo de dos clics desde el inicio.</p>
+          <p>
+            Encuentra el formulario de soporte en un máximo de dos clics desde el inicio.
+          </p>
         </aside>
       </section>
 
@@ -63,23 +68,43 @@
           <article class="service-card service-card--featured">
             <span class="service-card__tag">Más solicitado</span>
             <h3>Red y conectividad</h3>
-            <p>Ayuda con conexión a internet, Wi-Fi, acceso a recursos internos o interrupciones de red.</p>
-            <a href="#soporte">Solicitar este servicio <span aria-hidden="true">→</span></a>
+            <p>
+              Ayuda con conexión a internet, Wi-Fi, acceso a recursos internos o
+              interrupciones de red.
+            </p>
+            <a href="#soporte"
+              >Solicitar este servicio <span aria-hidden="true">→</span></a
+            >
           </article>
           <article class="service-card">
             <h3>Atención prioritaria</h3>
-            <p>Orientación para incidencias que afectan una actividad laboral urgente o a varios usuarios.</p>
-            <a href="#soporte">Solicitar este servicio <span aria-hidden="true">→</span></a>
+            <p>
+              Orientación para incidencias que afectan una actividad laboral urgente o a
+              varios usuarios.
+            </p>
+            <a href="#soporte"
+              >Solicitar este servicio <span aria-hidden="true">→</span></a
+            >
           </article>
           <article class="service-card">
             <h3>Hardware</h3>
-            <p>Soporte para computadoras, periféricos, impresoras, pantallas y otros equipos de trabajo.</p>
-            <a href="#soporte">Solicitar este servicio <span aria-hidden="true">→</span></a>
+            <p>
+              Soporte para computadoras, periféricos, impresoras, pantallas y otros
+              equipos de trabajo.
+            </p>
+            <a href="#soporte"
+              >Solicitar este servicio <span aria-hidden="true">→</span></a
+            >
           </article>
           <article class="service-card">
             <h3>Software</h3>
-            <p>Ayuda con aplicaciones, instalación autorizada, errores de funcionamiento y configuración básica.</p>
-            <a href="#soporte">Solicitar este servicio <span aria-hidden="true">→</span></a>
+            <p>
+              Ayuda con aplicaciones, instalación autorizada, errores de funcionamiento y
+              configuración básica.
+            </p>
+            <a href="#soporte"
+              >Solicitar este servicio <span aria-hidden="true">→</span></a
+            >
           </article>
         </div>
       </section>
@@ -88,38 +113,71 @@
         <div class="section__heading">
           <p class="eyebrow">Formulario</p>
           <h2 id="support-title">Solicitar soporte</h2>
-          <p>Completa los datos de prueba. Al enviar correctamente, solo se mostrará una confirmación en pantalla.</p>
+          <p>
+            Completa los datos de prueba. Al enviar correctamente, solo se mostrará una
+            confirmación en pantalla.
+          </p>
         </div>
         <form id="support-form" class="support-form">
           <div class="form-grid">
             <div class="form-field">
               <label for="name">Nombre completo</label>
-              <input id="name" name="name" type="text" required minlength="3" autocomplete="name" aria-describedby="name-help" />
-              <small id="name-help">Ingresa tu nombre completo, con al menos 3 caracteres.</small>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                minlength="3"
+                autocomplete="name"
+                aria-describedby="name-help"
+              />
+              <small id="name-help"
+                >Ingresa tu nombre completo, con al menos 3 caracteres.</small
+              >
             </div>
             <div class="form-field">
               <label for="email">Correo electrónico</label>
-              <input id="email" name="email" type="email" required autocomplete="email" aria-describedby="email-help" />
-              <small id="email-help">Usa un correo de prueba, por ejemplo ana@example.test.</small>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                autocomplete="email"
+                aria-describedby="email-help"
+              />
+              <small id="email-help"
+                >Usa un correo de prueba, por ejemplo ana@example.test.</small
+              >
             </div>
             <div class="form-field">
               <label for="incident-type">Tipo de incidencia</label>
-              <select id="incident-type" name="incident-type" required aria-describedby="type-help">
+              <select
+                id="incident-type"
+                name="incident-type"
+                required
+                aria-describedby="type-help"
+              >
                 <option value="">Selecciona una opción</option>
                 <option value="red">Red y conectividad</option>
                 <option value="hardware">Hardware</option>
                 <option value="software">Software</option>
                 <option value="prioridad">Atención prioritaria</option>
               </select>
-              <small id="type-help">Selecciona el tipo que describa mejor tu problema.</small>
+              <small id="type-help"
+                >Selecciona el tipo que describa mejor tu problema.</small
+              >
             </div>
           </div>
 
           <fieldset>
             <legend>Prioridad</legend>
-            <p class="field-help">Selecciona una sola prioridad según el impacto de la incidencia.</p>
+            <p class="field-help">
+              Selecciona una sola prioridad según el impacto de la incidencia.
+            </p>
             <div class="radio-group">
-              <label><input type="radio" name="priority" value="baja" required /> Baja</label>
+              <label
+                ><input type="radio" name="priority" value="baja" required /> Baja</label
+              >
               <label><input type="radio" name="priority" value="media" /> Media</label>
               <label><input type="radio" name="priority" value="alta" /> Alta</label>
             </div>
@@ -127,15 +185,36 @@
 
           <div class="form-field">
             <label for="description">Descripción de la incidencia</label>
-            <textarea id="description" name="description" required minlength="10" maxlength="500" rows="6" aria-describedby="description-help"></textarea>
-            <small id="description-help">Describe qué ocurre y qué estabas intentando hacer. Entre 10 y 500 caracteres.</small>
+            <textarea
+              id="description"
+              name="description"
+              required
+              minlength="10"
+              maxlength="500"
+              rows="6"
+              aria-describedby="description-help"
+            ></textarea>
+            <small id="description-help"
+              >Describe qué ocurre y qué estabas intentando hacer. Entre 10 y 500
+              caracteres.</small
+            >
           </div>
 
           <div class="form-actions">
-            <button id="submit-demo" class="button button--primary" type="submit" disabled>Enviar solicitud de prueba</button>
+            <button
+              id="submit-demo"
+              class="button button--primary"
+              type="submit"
+              disabled
+            >
+              Enviar solicitud de prueba
+            </button>
             <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
           </div>
-          <p class="simulation-note"><strong>Simulación:</strong> este formulario no envía ni guarda tickets ni información personal.</p>
+          <p class="simulation-note">
+            <strong>Simulación:</strong> este formulario no envía ni guarda tickets ni
+            información personal.
+          </p>
         </form>
       </section>
 
@@ -149,26 +228,41 @@
             <h3>Servicios y solicitudes</h3>
             <article class="faq-item">
               <h4>¿Qué información debo colocar en el formulario?</h4>
-              <p>Indica tu nombre, correo de prueba, tipo de incidencia, prioridad y una descripción clara del problema.</p>
+              <p>
+                Indica tu nombre, correo de prueba, tipo de incidencia, prioridad y una
+                descripción clara del problema.
+              </p>
             </article>
             <article class="faq-item">
               <h4>¿Puedo elegir la prioridad que considere adecuada?</h4>
-              <p>Sí. Selecciona baja, media o alta según el impacto que tenga la incidencia en tu actividad.</p>
+              <p>
+                Sí. Selecciona baja, media o alta según el impacto que tenga la incidencia
+                en tu actividad.
+              </p>
             </article>
             <article class="faq-item">
               <h4>¿Los datos enviados generan un ticket real?</h4>
-              <p>No. Esta página es una simulación académica y no envía ni almacena solicitudes.</p>
+              <p>
+                No. Esta página es una simulación académica y no envía ni almacena
+                solicitudes.
+              </p>
             </article>
           </div>
           <div class="faq-category">
             <h3>Atención y contacto</h3>
             <article class="faq-item">
               <h4>¿Cuándo puedo solicitar soporte?</h4>
-              <p>El horario ficticio de atención es de lunes a viernes, de 8:00 a. m. a 6:00 p. m.</p>
+              <p>
+                El horario ficticio de atención es de lunes a viernes, de 8:00 a. m. a
+                6:00 p. m.
+              </p>
             </article>
             <article class="faq-item">
               <h4>¿Qué hago si mi problema no aparece entre los servicios?</h4>
-              <p>Selecciona el tipo más cercano y explica los detalles de la incidencia en el campo de descripción.</p>
+              <p>
+                Selecciona el tipo más cercano y explica los detalles de la incidencia en
+                el campo de descripción.
+              </p>
             </article>
           </div>
         </div>
@@ -178,7 +272,10 @@
         <div>
           <p class="eyebrow">Contacto</p>
           <h2 id="contact-title">Estamos para ayudarte</h2>
-          <p>Canal de soporte ficticio para fines académicos. No corresponde a un servicio real.</p>
+          <p>
+            Canal de soporte ficticio para fines académicos. No corresponde a un servicio
+            real.
+          </p>
         </div>
         <address>
           <p><strong>Correo:</strong> soporte@nova-servicios.example</p>
